@@ -74,7 +74,7 @@ fun Counter(score: Int) {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Box(modifier = Modifier.height(2.dp).width(120.dp).background(color = Color.White))
+        Box(modifier = Modifier.height(2.dp).width(100.dp).background(color = Color.White))
         Text(
             text = score.toString(),
             style = MaterialTheme.typography.h1,
