@@ -86,7 +86,7 @@ fun Counter(score: Int) {
 fun getTimerText(duration: Int): String {
     val min = duration / 60
     val sec = duration % 60
-    return "$min:${formattedNumber(sec)}"
+    return "${formattedNumber(min)}:${formattedNumber(sec)}"
 }
 
 fun formattedNumber(number: Int): String {
